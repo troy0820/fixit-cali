@@ -20,14 +20,6 @@
         <h1 class='text-capitalize'><i class="fa fa-wrench"></i> Fix it |
             <%= title = title.split('-').join(' ') %>
         </h1>
-        <h2>Zip codes with issues:</h2>
-        <ul class="list-inline">
-            <% if (typeof(zips) !== "undefined") { %>
-                <% zips.map(function(_,i) {   %>
-                    <li><big><%= zips[i] %></big></li>
-                    <% }) }%>
-        </ul>
-
 
         <h2>Santa Clara</h2>
         <a href="/" class="btn btn-info" role="button">Santa Clara</a>
