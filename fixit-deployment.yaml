@@ -28,7 +28,7 @@ spec:
         run: fixit
     spec:
       containers:
-      - image: troy0820/fixcali:v2
+      - image: troy0820/fixcali:v3
         imagePullPolicy: Never
         livenessProbe:
           failureThreshold: 3
