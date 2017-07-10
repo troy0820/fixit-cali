@@ -4,7 +4,6 @@ COPY package.json /tmp/package.json
 
 RUN cd /tmp/ && npm install --production
 
-
 RUN mkdir -p /var/www && cp -a /tmp/node_modules /var/www
 
 WORKDIR /var/www
