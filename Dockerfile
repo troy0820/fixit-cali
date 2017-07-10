@@ -16,5 +16,4 @@ VOLUME /var/www
 
 # HEALTHCHECK --interval=5s --timeout=3s --retries=5 CMD curl -f http://localhost:3000/health || exit 1
 
-
 ENTRYPOINT  ["npm", "start"]
