@@ -12,3 +12,5 @@ npm start
 ```
 
 Go to `localhost:3000` to view the app
+
+Kubectl commands are located [here](./COMMANDS.md)
